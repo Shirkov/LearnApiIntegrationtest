@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:message-envelope id="5e7e8310-374c-429d-9445-6a37a3879972" original-id="791a17ef-0a4b-491c-afa2-c4fc213bf91f" timestamp="2020-09-10T16:30:49.221+05:00" protocol-version="1C:7" attempt="1" src="sys:trd:ekb" data-type="ON_NSCHFDOPPRMARK" data-action="set"
+                      xmlns="ru.galacentre.schema.kpi:1.0"
+                      xmlns:ns6="ru.galacentre.schema.ext-proc-version:1.0"
+                      xmlns:ns5="ru.galacentre.schema.refdata:1.0"
+                      xmlns:ns2="ru.galacentre.schema.common:1.0"
+                      xmlns:ns4="ru.galacentre.schema.routeconfig:1.0"
+                      xmlns:ns3="ru.galacentre.schema.adapter.eventprocessor:1.0">
+    <ns2:version ver-id=" 4M6 HE4BYRAD" ver-no="1599737449221"/>
+    <ns2:dsts>
+        <ns2:dst>sys:cnr:ksm</ns2:dst>
+    </ns2:dsts>
+</ns2:message-envelope>

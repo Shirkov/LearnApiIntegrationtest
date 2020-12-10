@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns4:message-envelope id="983d4f34-7400-4f4b-8a65-58a60bc71cef" original-id="eeb52817-5d43-4246-97c4-8833399a3236" timestamp="2020-05-07T22:58:16.883+05:00" attempt="1" src="sys:zup:upr" data-type="type:doc:trading:invoice" data-action="set"
+                      xmlns="ru.galacentre.schema.refdata:1.0"
+                      xmlns:ns6="ru.galacentre.schema.ext-proc-version:1.0"
+                      xmlns:ns5="ru.galacentre.schema.routeconfig:1.0"
+                      xmlns:ns2="ru.galacentre.schema.adapter.eventprocessor:1.0"
+                      xmlns:ns4="ru.galacentre.schema.common:1.0"
+                      xmlns:ns3="ru.galacentre.schema.kpi:1.0">
+    <ns4:ids>
+        <ns4:id origin="sys:zup:upr">c3e54453-6f6d-4a89-a813-e960677eb0b7</ns4:id>
+    </ns4:ids>
+    <ns4:version ver-id="c6a87be7-3dae-4c56-84b7-ec9ea8323f65" ver-no="1588874296883"/>
+    <ns4:dsts>
+        <ns4:dst>sys:wms:ekb-debug</ns4:dst>
+    </ns4:dsts>
+</ns4:message-envelope>

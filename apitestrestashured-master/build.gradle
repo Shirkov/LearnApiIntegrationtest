@@ -1,0 +1,56 @@
+plugins {
+    id 'java'
+}
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'io.rest-assured', name: 'rest-assured', version: '4.3.0'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.8'
+    compile group: 'com.github.javafaker', name: 'javafaker', version: '0.18'
+
+    compile group: 'org.apache.activemq', name: 'activemq-rar', version: '5.15.3'
+    compile group: 'org.springframework', name: 'spring-jms', version: '5.2.2.RELEASE'
+
+    compile group: 'com.zaxxer', name: 'HikariCP', version: '3.4.5'
+
+
+    compile group: 'ru.yandex.clickhouse', name: 'clickhouse-jdbc', version: '0.2.4'
+
+    testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+
+
+
+
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+    testCompileOnly 'org.projectlombok:lombok:1.18.12'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
+
+
+
+
+
+
+}
+
+
+
+test {
+    useTestNG()
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+        showStandardStreams = true
+        exceptionFormat = 'full'
+    }
+
+}

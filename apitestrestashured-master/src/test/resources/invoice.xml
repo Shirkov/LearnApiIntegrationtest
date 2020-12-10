@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marking-notification dst-id="ТОР" post-time="2020-09-22T16:40:18Z" xsi:schemaLocation="ru.galacentre.schema.notification-marking galacentre-marking.xsd" xmlns="ru.galacentre.schema.notification-marking" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <invoice document-id="shi1" business-number="shi1" business-date="2020-05-27" document-status="A"
+             source-ref=" 60V GT612RAD" staff-id="   9R8NR " counterparty="  12IRRAD" firm="    5ERAD" country="643" valute="643"
+             expected-date="2020-09-25" department="     RRAD" user="   1B5RAD">
+        <comment><![CDATA[15.08]]></comment>
+        <sku sku-id="  6C5VRAD" artikul="492-002" name="PROVANCE Зимняя сказка Полотенце кухонное, рогожка, 100% хлопок, 35х60см, 2 дизайна" quantity="6" block-factor="" box-factor="180.000"
+             gtin="4620061480922" block-gtin="" box-gtin="14680259625785" amount="30,780"/>
+        <sku sku-id="  6C5XRAD" artikul="488-030" name="PROVANCE Мечта Комплект постельного белья евро (4 пр.), поплин 110гр/м, 100% хлопок, 3 дизайна" quantity="6" block-factor="" box-factor="5.000"
+             gtin="04620061480878" block-gtin="" box-gtin="14680259625808" amount="32,580"/>
+    </invoice>
+</marking-notification>
